@@ -1,8 +1,9 @@
 #include <iostream>
 #include "LinkedList.h"
-//#include "Item.h"
 
 int main() {
+	//Example one how to use the LinkedList
+	
 	LinkedList* list = new LinkedList();
 	list->add(new Item(333));
 	list->add(new Item(1321));
